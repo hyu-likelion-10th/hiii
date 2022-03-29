@@ -6,4 +6,4 @@
 + 전공 : 정보시스템학과
 + 취미 : 실내클라이밍, 크루저보드
 + MBTI : ENFP
-# 잘 부탁드립니다 :stuck_out_tongue_closed_eyes:
+### 잘 부탁드립니다 :stuck_out_tongue_closed_eyes:
