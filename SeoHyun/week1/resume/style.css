@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border : 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.titlebox {
+    text-align: right;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid lightgray;
+    color: #282828;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+}
+
+p {
+    line-height: 160%;
+}
+
+.name-text {
+    font-size:16px;
+    color:#7c7c7c;
+    font-family: 'Montserrat';
+}
+
+.title-text {
+    float: left;
+    font-weight: bolder;
+    font-size : 16px;
+}
+
+.year-text {
+    float: right;
+    font-weight: bolder;
+    font-size : 16px;
+}
+
+.float-wrap {
+    overflow: hidden;
+    height: 45px;
+}
+
+.sub-text {
+    margin-top: 0%;
+    font-size: 13px;
+}
+
+.sns-wrap {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.sns {
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+
+.copy {
+    background-color: #282828;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #ebebeb;
+    padding: 30px;
+    font-weight: lighter;
+    font-size: 13px;
+}
