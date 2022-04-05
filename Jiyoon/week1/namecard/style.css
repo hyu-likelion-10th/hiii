@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+* {
+    font-family: 'Nanum Gothic';
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.front{
+    width: 375px;
+    height: 610px;
+    background-color: #003399;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    width: 375px;
+    height: 610px;
+    background-color: #003399;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+
+.name{
+    margin-top: 340px;
+    color: #fffede;
+    font-size: 23px;
+    font-weight: bolder;   
+}
+
+.sub{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.sub-title{
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 19px;
+}
+
+.info{
+    margin-left: 40px;
+}
+
+.contact{
+    margin-top: 33px;
+    padding-top: 7px;
+    border-top: 2px solid #fffede;
+    font-size : 11px;
+    color: #fffebe;
+    font-weight: light;    
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    height: 13px;
+    width: 13px;
+}
+
+.cont-text{
+    color: #fffebe;
+    margin-left: 5px;
+}
+
+.cont-icon{
+    margin-left: 40px;
+    margin-top: 12px;
+    display: flex;
+}
+
+.url{
+    text-decoration: none;
+    color:#fffebe;
+}
