@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'Montserrat'
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    color: whitesmoke;
+}
+h3{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+p{
+    font-size: 22px;
+    line-height: 180%;
+    color: white;
+}
+.aboutme {
+    width: 820px;
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: right;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ebebeb;
+    background-color: #F7B045;
+    width: 960px;
+    height: 560px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 70px 70px 70px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 20px 0px #ffe0b1;
+}
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 820px;
+    border-top: 3px solid whitesmoke;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 337;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid whitesmoke;
+}
+.item {
+    width: 615px;
+    height: 337px;
+    padding: 20px 20px 20px 140px;
+    box-sizing: border-box;
+}
+#profile{
+    border: 3px solid white;
+    border-radius: 20px 20px 20px 20px;
+    background-color: cornsilk;
+}
+.sns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: 120px;
+    justify-content: space-around;
+}
