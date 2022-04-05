@@ -1,75 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Hanuel's namecard</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body style="margin: 0px">
-    <!-- 배경 따로 수정 필요없음 -->
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        width: 100%;
-        height: 100%;
-      "
-    >
-      <!-- 실제 명함 부분 -->
-      <!-- 1920, 1080 기준으로 제작되어 있으나 원하는 사이즈로 변경해도 됨 -->
-      <div
-        style="
-          width: 1920px;
-          height: 1080px;
-          background-color: rgb(176,222,228,1);
-          transform: scale(0.2, 0.2);
-        "
-      >
+    <div class="back">
+      <div class="main">
         <img
           src="images/gom.jpeg"
           width="580px"
           height="580px"
           style="top: 200px; left: 115px;"
         />
-        <div
-          style="
-            top: 175px;
-            left: 823px;
-            width: 12px;
-            height: 752px;
-            background: white 0% 0% no-repeat padding-box;
-          "
-        ></div>
-        <div
-          style="
-            top: 255px;
-            left: 975px;
-            width: 584px;
-            height: 73px;
-            text-align: left;
-            font: bold normal normal 70px/50px Beirut;
-            letter-spacing: 8.4px;
-            color: #000000;
-          "
-        >
-          LEE HA NUEL
-        </div>
+        <div class="half-line"></div>
+        <div class="name">LEE HA NUEL</div>
 
-        <div class="subtext" style="top: 365px">
-          Hanyang Univ [ Information System ]
-        </div>
-        <div class="subtext" style="top: 500px">
-          LikeLion 10th / Backend
-        </div>
-        <div class="subtext" style="top: 600px">
-          Tech Stack : C, C++
-        </div>
-        <div class="subtext" style="top: 700px">
-          Contact : ezzeezz@naver.com
-        </div>
+        <div class="subtext" style="top: 365px">Hanyang Univ [ Information System ]</div>
+        <div class="subtext" style="top: 500px">LikeLion 10th / Backend</div>
+        <div class="subtext" style="top: 600px">Tech Stack : C, C++</div>
+        <div class="subtext" style="top: 700px">Contact : ezzeezz@naver.com</div>
       
         <img 
           class="sns-img"
@@ -79,8 +31,7 @@
           class="url"
           href="https://github.com/hanuel-git"
           style="top: 825px; left: 1055px"
-          >github.com/hanuel-git</a
-        >
+          >github.com/hanuel-git</a>
       </div>
     </div>
   </body>
